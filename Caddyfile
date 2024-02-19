@@ -1,0 +1,6 @@
+{
+  acme_ca https://ca.2tudor.net/acme/acme/directory
+  acme_ca_root /etc/caddy/root_ca-2tudor.net.crt
+}
+
+import /etc/caddy/config.d/*
